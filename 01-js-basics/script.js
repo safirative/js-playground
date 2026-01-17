@@ -7,3 +7,8 @@ button.addEventListener("click", () => {
 console.log("Javascript");
 console.log(5);
 console.log(false);
+
+let score = 10;
+score = 20;
+
+console.log(score);
