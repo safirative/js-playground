@@ -12,3 +12,35 @@ let score = 10;
 score = 20;
 
 console.log(score);
+
+
+console.log(0.1 + 0.2);
+
+let score = 10;
+score = 20;
+
+console.log(score);
+
+const isDarkMode = true;
+
+if (isDarkMode === true) {
+  console.log("Dark mode is on");
+} else {
+  console.log("Dark mode is off");
+}
+
+
+console.log(5>3);
+console.log(2<1);
+console.log(4>=4);
+console.log(6<=5);
+console.log(3===3);
+console.log(3!==4);
+
+const age = 17;
+
+if (age >= 18) {
+  console.log("Boleh daftar");
+} else {
+  console.log("Belum cukup umur");
+}
