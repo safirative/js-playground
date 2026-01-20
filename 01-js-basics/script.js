@@ -52,3 +52,10 @@ if (cartItems > 0) {
 } else {
   console.log("Keranjang kosong");
 }
+
+const isLoggedIn = true;
+const hasSubscription = true;
+
+if (isLoggedIn && hasSubscription) {
+  console.log("Tonton konten premium");
+}
