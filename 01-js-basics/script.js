@@ -59,3 +59,12 @@ const hasSubscription = true;
 if (isLoggedIn && hasSubscription) {
   console.log("Tonton konten premium");
 }
+
+const isAdmin = false;
+const isEditor = true;
+
+if (isAdmin || isEditor) {
+  console.log("Bisa edit konten");
+} else {
+  console.log("Tidak bisa edit konten");
+}
