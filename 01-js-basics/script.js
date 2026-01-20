@@ -44,3 +44,11 @@ if (age >= 18) {
 } else {
   console.log("Belum cukup umur");
 }
+
+const cartItems = 0;
+
+if (cartItems > 0) {
+  console.log("Ada item");
+} else {
+  console.log("Keranjang kosong");
+}
