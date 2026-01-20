@@ -68,3 +68,13 @@ if (isAdmin || isEditor) {
 } else {
   console.log("Tidak bisa edit konten");
 }
+
+const isLoggedIn = false;
+const isAdmin = true;
+const hasSubscription = true;
+
+if ((isLoggedIn && hasSubscription) || isAdmin) {
+  console.log("Bisa akses panel admin");
+} else {
+  console.log("Akses ditolak");
+}
