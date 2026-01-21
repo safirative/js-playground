@@ -114,3 +114,15 @@ if (isLoggedIn && !isBanned && isPremium) {
   console.log("Access denied 🚫");
 }
 
+
+function sayHello(name) {
+  console.log(`Hello, ${name}! 👋`);
+}
+
+sayHello("Fira");
+
+const sayHi = (name) => {
+  console.log(`Hi, ${name}! 😎`);
+}
+
+sayHi("Fira"); 
