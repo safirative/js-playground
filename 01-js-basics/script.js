@@ -79,13 +79,24 @@ if ((isLoggedIn && hasSubscription) || isAdmin) {
   console.log("Akses ditolak");
 }
 
+
 const nama = "Fira";
 const streakDay = 5;
 
 console.log(`Halo ${nama}, kamu sudah belajar selama ${streakDay} hari berturut-turut!🔥`);
+
 
 const appName = "Cute Timer";
 const timeLeft = 5;
 
 console.log(`Welcome to ${appName}`);
 console.log(`Time left: ${timeLeft} minutes`);
+
+
+const timeLeft = 0;
+
+if (timeLeft > 0) {
+  console.log("Timer is running ⏱️");
+} else {
+  console.log("Time's up! ⏰");
+}
