@@ -100,3 +100,17 @@ if (timeLeft > 0) {
 } else {
   console.log("Time's up! ⏰");
 }
+
+
+const isLoggedIn = true;
+const isPremium = true;
+const isBanned = false;
+
+if (isLoggedIn && !isBanned && isPremium) {
+  console.log("✨ Welcome to premium content! ✨");
+} else if (isLoggedIn && !isBanned) {
+  console.log("Welcome to free content! 🎉");
+} else {
+  console.log("Access denied 🚫");
+}
+
