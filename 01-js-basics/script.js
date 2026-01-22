@@ -126,3 +126,17 @@ const sayHi = (name) => {
 }
 
 sayHi("Fira"); 
+
+
+// Learn arrow function emoji timer
+const getEmoji = (timeLeft) => {
+  if (timeLeft > 5) return "⏱️";
+  else if (timeLeft > 2) return "🔥";
+  else return "⚠️";
+}
+
+// Tes arrow function
+console.log(getEmoji(6)); // ⏱️
+console.log(getEmoji(4)); // 🔥
+console.log(getEmoji(1)); // ⚠️
+
