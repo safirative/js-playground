@@ -93,6 +93,7 @@ console.log(`Welcome to ${appName}`);
 console.log(`Time left: ${timeLeft} minutes`);
 
 
+// learn conditional
 const timeLeft = 0;
 
 if (timeLeft > 0) {
@@ -102,6 +103,7 @@ if (timeLeft > 0) {
 }
 
 
+// learn conditional - 2
 const isLoggedIn = true;
 const isPremium = true;
 const isBanned = false;
@@ -115,12 +117,15 @@ if (isLoggedIn && !isBanned && isPremium) {
 }
 
 
+// learn function
 function sayHello(name) {
   console.log(`Hello, ${name}! 👋`);
 }
 
 sayHello("Fira");
 
+
+// learn arrow function
 const sayHi = (name) => {
   console.log(`Hi, ${name}! 😎`);
 }
@@ -128,14 +133,14 @@ const sayHi = (name) => {
 sayHi("Fira"); 
 
 
-// Learn arrow function emoji timer
+// learn arrow function emoji timer
 const getEmoji = (timeLeft) => {
   if (timeLeft > 5) return "⏱️";
   else if (timeLeft > 2) return "🔥";
   else return "⚠️";
 }
 
-// Tes arrow function
+// test arrow function
 console.log(getEmoji(6)); // ⏱️
 console.log(getEmoji(4)); // 🔥
 console.log(getEmoji(1)); // ⚠️
