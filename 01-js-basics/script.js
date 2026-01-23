@@ -145,3 +145,18 @@ console.log(getEmoji(6)); // ⏱️
 console.log(getEmoji(4)); // 🔥
 console.log(getEmoji(1)); // ⚠️
 
+
+
+// belajar looping
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+
+
+for (let i = 10; i > 5; i--) {
+  console.log(i);
+}
+
+for (let i = 1; i <= 5; i++) {
+  console.log('Putaran ke-' + i);
+}
