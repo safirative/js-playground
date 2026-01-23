@@ -147,7 +147,7 @@ console.log(getEmoji(1)); // ⚠️
 
 
 
-// belajar looping
+// learn looping
 for (let i = 1; i <= 5; i++) {
   console.log(i);
 }
@@ -159,4 +159,18 @@ for (let i = 10; i > 5; i--) {
 
 for (let i = 1; i <= 5; i++) {
   console.log('Putaran ke-' + i);
+}
+
+//learn while loop
+let i = 1;
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
+
+let timeLefts = 5;
+
+while (timeLefts > 0) {
+  console.log(timeLefts);
+  timeLefts--;
 }
