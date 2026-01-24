@@ -184,3 +184,11 @@ function add(a, b) {
 
 const result = add(2, 3);
 console.log(result);
+
+
+function calculateTimerMinutes(seconds) {
+  return seconds / 60;
+}
+
+const minutes = calculateTimerMinutes(300);
+console.log(`Timer: ${minutes} minutes`);
