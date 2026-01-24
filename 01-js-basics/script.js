@@ -181,7 +181,6 @@ while (timeLefts > 0) {
 function add(a, b) {
   return a + b;
 }
-
 const result = add(2, 3);
 console.log(result);
 
@@ -189,6 +188,19 @@ console.log(result);
 function calculateTimerMinutes(seconds) {
   return seconds / 60;
 }
-
 const minutes = calculateTimerMinutes(300);
 console.log(`Timer: ${minutes} minutes`);
+
+
+function checkLogin(isLoggedIn) {
+  if (!isLoggedIn) {
+    return "Please login first";
+  }
+  return "Welcome back!";
+}
+
+const message1 = checkLogin(false);
+const message2 = checkLogin(true);
+
+console.log(message1);
+console.log(message2);
