@@ -170,7 +170,17 @@ while (i <= 5) {
 
 let timeLefts = 5;
 
+
 while (timeLefts > 0) {
   console.log(timeLefts);
   timeLefts--;
 }
+
+
+// learn return function
+function add(a, b) {
+  return a + b;
+}
+
+const result = add(2, 3);
+console.log(result);
