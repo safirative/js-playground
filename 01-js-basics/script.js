@@ -204,3 +204,24 @@ const message2 = checkLogin(true);
 
 console.log(message1);
 console.log(message2);
+
+
+// learn arrow function
+const sayGreeting = (name) => {
+  return `Hello ${name}`;
+};
+
+console.log(sayGreeting("Safira"));
+
+
+// trying arrow function
+const getTimerLabel = (minutes) => {
+  if (minutes >= 60) {
+    return "Long Timer";
+  }
+
+  return "Short Timer";
+};
+
+console.log(getTimerLabel(90));
+console.log(getTimerLabel(25));
