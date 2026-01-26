@@ -232,3 +232,11 @@ const fruits = ["Apple", "Banana", "Strawberry"];
 console.log(fruits[0]);
 console.log(fruits[1]);
 console.log(fruits[2]);
+
+// trying array
+const timerLabels = ["Study", "Break", "Cooking"];
+
+console.log(timerLabels[0]);
+console.log(timerLabels[1]);
+console.log(timerLabels[2]);
+
