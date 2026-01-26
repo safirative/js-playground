@@ -236,7 +236,7 @@ console.log(fruits[2]);
 // trying array
 const timerLabels = ["Study", "Break", "Cooking"];
 
-console.log(timerLabels[0]);
-console.log(timerLabels[1]);
-console.log(timerLabels[2]);
+for (let i = 0; i < timerLabels.length; i++) {
+  console.log(timerLabels[i]);
+}
 
