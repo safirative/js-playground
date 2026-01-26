@@ -240,3 +240,9 @@ for (let i = 0; i < timerLabels.length; i++) {
   console.log(timerLabels[i]);
 }
 
+// learn loopung through arrays
+const cuteTimers = ["Pomodoro 🍅", "Tea Break ☕", "Cooking 🍳"];
+
+for (let i = 0; i < cuteTimers.length; i++) {
+  console.log(`⏱️ ${cuteTimers[i]}`);
+}
