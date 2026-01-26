@@ -225,3 +225,10 @@ const getTimerLabel = (minutes) => {
 
 console.log(getTimerLabel(90));
 console.log(getTimerLabel(25));
+
+// learn basic array usage
+const fruits = ["Apple", "Banana", "Strawberry"];
+
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
