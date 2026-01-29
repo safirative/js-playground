@@ -13,3 +13,7 @@ info.innerHTML = "<strong>Halo</strong> Dunia";
 
 const message = document.getElementById("message");
 message.innerHTML = "Status : <span> Online </span>";
+
+// toggle UI state using classList
+const text = document.getElementById("text");
+text.classList.add("highlight");
