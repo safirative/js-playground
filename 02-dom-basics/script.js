@@ -10,3 +10,6 @@ subtitle.textContent = "DOM berhasil disentuh";
 // learn .textContext vs .innerHTML
 const info = document.getElementById("info");
 info.innerHTML = "<strong>Halo</strong> Dunia";
+
+const message = document.getElementById("message");
+message.innerHTML = "Status : <span> Online </span>";
