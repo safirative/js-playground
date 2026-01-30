@@ -17,3 +17,11 @@ message.innerHTML = "Status : <span> Online </span>";
 // toggle UI state using classList
 const text = document.getElementById("text");
 text.classList.add("highlight");
+
+
+// event handling : add event listener
+const button = document.getElementById("btn");
+
+button.addEventListener("click", function () {
+  text.textContent = "Aku diklik 😆";
+});
