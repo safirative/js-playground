@@ -23,5 +23,5 @@ text.classList.add("highlight");
 const button = document.getElementById("btn");
 
 button.addEventListener("click", function () {
-  text.textContent = "Aku diklik 😆";
+  text.textContent = "Aku diklik!";
 });
