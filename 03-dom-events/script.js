@@ -17,3 +17,14 @@ items.forEach((item) => {
     e.target.textContent = "Aku yang diklik!";
   });
 });
+
+
+// event : submit form interaction
+const form = document.getElementById("myForm");
+const info = document.getElementById("info");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  info.textContent = "Form disubmit, tapi screen tidak reload";
+});
