@@ -22,9 +22,17 @@ items.forEach((item) => {
 // event : submit form interaction
 const form = document.getElementById("myForm");
 const info = document.getElementById("info");
+const input = document.getElementById("userInput");
 
+// show input feedback
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  info.textContent = "Form disubmit, tapi screen tidak reload";
+  const value = input.value;
+
+  if (value === "") {
+    info.textContent = "Input masih kosong";
+  } else {
+    info.textContent = "Kamu ngetik: " + value;
+  }
 });
