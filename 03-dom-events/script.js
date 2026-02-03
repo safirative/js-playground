@@ -29,10 +29,14 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const value = input.value;
-
+  
+  info.classList.remove("error", "success");
+  
   if (value === "") {
     info.textContent = "Input masih kosong";
+    info.classList.add("error");
   } else {
     info.textContent = "Kamu ngetik: " + value;
+    info.classList.add("success");
   }
 });
