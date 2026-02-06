@@ -6,8 +6,8 @@ const tasks = [
 
 const list = document.getElementById("list");
 
-tasks.forEach((task) => {
+tasks.forEach((task, index) => {
   const item = document.createElement("li");
-  item.textContent = task;
+  item.textContent = index + 1 + ". " + task;
   list.appendChild(item);
 });
