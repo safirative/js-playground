@@ -7,10 +7,10 @@ const tasks = [
 const list = document.getElementById("list");
 
 // add index number
-tasks.forEach((task, index) => {
-  const item = document.createElement("li");
-  item.textContent = index + 1 + ". " + task;
-  list.appendChild(item);
+// tasks.forEach((task, index) => {
+  // const item = document.createElement("li");
+  // item.textContent = index + 1 + ". " + task;
+  // list.appendChild(item);
 });
 
 // trying other forEach
@@ -21,4 +21,9 @@ todos.forEach(function(item, index, arr) {
   console.log(index + 1 + ". " + item);
   console.log(arr);
   console.log(this.name);
+
+  // learn logic UI
+  const li = document.createElement("li");
+  li.textContent = index + 1 + ". " + item;
+  list.appendChild(li);
 }, ctx);
